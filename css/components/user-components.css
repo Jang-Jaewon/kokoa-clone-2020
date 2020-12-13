@@ -22,16 +22,16 @@
   color: var(--main-font-color);
 }
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
   border-radius: 25px;
 }
-.user-component__title--not-bold {
-  font-weight: 400;
+.user-component__title--sm {
+  font-size: 15px;
 }
 .user-component__column:last-child {
   color: var(--main-font-color);
@@ -42,4 +42,35 @@
 .user-component_time {
   margin-bottom: 10px;
   display: block;
+}
+.user-Component_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.user-component_icon {
+  font-size: 30px;
+  color: whitesmoke;
+}
+.user-coponent__gift {
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  background-color: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+.user-coponent__gift i {
+  margin-right: 5px;
+}
+.user-component__column .id_icon {
+  color: #f8b229;
 }

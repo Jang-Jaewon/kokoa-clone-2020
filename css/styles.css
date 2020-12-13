@@ -11,6 +11,7 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/ad.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -24,6 +25,7 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
   color: #2e363e;
+  background-color: tomato;
 }
 .main__screen {
   padding: 0px var(--horizontal-space);

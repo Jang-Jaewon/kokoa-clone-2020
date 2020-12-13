@@ -1,5 +1,5 @@
 .badge_num {
-  background-color: tomato;
+  background-color: var(--red);
   width: 30px;
   height: 30px;
   border-radius: 15px;
@@ -10,7 +10,7 @@
   font-weight: 600;
 }
 .badge_dot {
-  background-color: tomato;
+  background-color: var(--red);
   width: 8px;
   height: 8px;
   border-radius: 4px;

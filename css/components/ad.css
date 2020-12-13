@@ -1,0 +1,50 @@
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ad-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 95%;
+  height: 80px;
+  margin-bottom: 20px;
+  border: 3px solid var(--yellow);
+}
+.ad-component__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ad-component__title h3:first-child {
+  margin-bottom: 10px;
+}
+.ad-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ad-component img {
+  height: 70px;
+  width: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.ad-component__mark {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  background-color: var(--yellow);
+  position: absolute;
+  display: flex;
+  top: -35px;
+  left: 75px;
+  justify-content: center;
+  align-items: center;
+}

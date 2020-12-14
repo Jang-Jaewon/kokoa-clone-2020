@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 .ad-box {
   display: flex;
@@ -30,10 +31,10 @@
   position: relative;
 }
 .ad-component img {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 30px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .ad-component__mark {
   height: 20px;
@@ -41,10 +42,10 @@
   border-radius: 10px;
   font-size: 12px;
   background-color: var(--yellow);
-  position: absolute;
+  position: fixed;
+  top: 125px;
+  left: 15px;
   display: flex;
-  top: -35px;
-  left: 75px;
   justify-content: center;
   align-items: center;
 }
